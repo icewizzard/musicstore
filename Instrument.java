@@ -17,4 +17,12 @@ public abstract class Instrument {
     public String getBrandName() {
         return brandName;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj instanceof Instrument){
+            Instrument instrument = (Instrument) obj;
+            return instrument.getPrice()==obj.get
+        }
+    }
 }
